@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200&family=Roboto:wght@100&display=swap");
+.top-background {
+  background: url("https://template.hasthemes.com/ramble/ramble/images/slider/bg/2.jpg") no-repeat scroll 0 0/cover;
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+.top-background .top .logo {
+  margin-top: 40px;
+}
+
+.top-background .top .header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 20px;
+}
+
+.top-background .top .header__top .header__top__left {
+  color: #fff;
+}
+
+.top-background .top .header__top .header__top__left p {
+  margin-bottom: 0;
+}
+
+.top-background .top .header__top .header__top__left .text-theme {
+  color: #DDA30E;
+}
+
+.top-background .top .header__top .header__top__mid {
+  color: #fff;
+}
+
+.top-background .top .header__top .header__top__mid p {
+  margin-bottom: 0;
+}
+
+.top-background .top .header__top .header__top__mid .text-theme {
+  color: #DDA30E;
+}
+
+.top-background .top .header__top .header__top__right .login__register {
+  list-style: none;
+}
+
+.top-background .top .header__top .header__top__right .login__register li {
+  display: inline;
+  padding-right: 10px;
+  color: #fff;
+}
+
+.top-background .top hr:not([size]) {
+  height: 1px;
+  margin-top: -12px;
+}
+
+.top-background .top .header__bottom {
+  position: absolute;
+  margin-left: 80px;
+}
+
+.top-background .top .header__bottom .navbar-light .navbar-toggler-icon {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-151/24/List_menu_toggle-512.png");
+}
+
+.top-background .top .social-icons {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.top-background .top .social-icons li {
+  display: inline;
+  padding-right: 15px;
+  font-size: 18px;
+}
+
+.top-background .background-inner .inner__header {
+  margin-top: 77px;
+}
+
+.top-background .background-inner .inner__header h2 {
+  font-size: 59px;
+}
+
+.top-background .background-inner .inner__header h1 {
+  font-size: 63px;
+  font-weight: bold;
+}
+
+.top-background .background-inner .view__button {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-background .background-inner .view__button button {
+  background: transparent;
+  color: #FFB300;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #FFB300;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.top-background .background-inner .view__button button:hover {
+  color: #fff;
+  background-color: #FFB300;
+}
+
+.select__option__inner:before {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 65px;
+  content: "";
+  height: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0.4;
+  top: -27px;
+  width: 100%;
+  z-index: -1;
+}
+
+.select__option {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  z-index: 99;
+}
+
+.select__option .select__option__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 110px;
+  position: relative;
+  padding: 0 60px;
+  z-index: 2;
+}
+
+.select__option .select__option__inner .single__option input {
+  padding: 10px 20px;
+  width: 191px;
+}
+
+.select__option .select__option__inner .single__option select {
+  padding: 10px 20px;
+  width: 191px;
+}
+
+.select__option .search__tours button {
+  color: #000;
+  background-color: #FFB300;
+  border: none;
+  padding: 10px 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */

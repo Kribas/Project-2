@@ -1,0 +1,153 @@
+.top-background {
+    background: url('https://template.hasthemes.com/ramble/ramble/images/slider/bg/2.jpg') no-repeat scroll 0 0 / cover;
+    height: 100vh;
+    display: block;
+    position: relative;
+   
+        .top {
+            .logo {
+                margin-top: 40px;
+            }
+            .header__top {
+                display: flex;
+                justify-content: space-between;
+                margin: 15px 20px;
+                .header__top__left {
+                    color: #fff;
+                    p {
+                        margin-bottom: 0;
+                    }
+                    .text-theme {
+                        color: #DDA30E;
+                    }
+                }
+
+                .header__top__mid {
+                    color: #fff;
+                    p {
+                        margin-bottom: 0;
+                    }
+                    .text-theme {
+                        color: #DDA30E;
+                    }
+                }
+
+
+                    .header__top__right {
+                        .login__register {
+                            list-style: none;
+                                li {
+                                    display: inline;
+                                    padding-right: 10px;
+                                    color: #fff;
+                                }
+                        }
+                    }
+
+                    
+            }
+            hr:not([size]) {
+                height: 1px;
+                margin-top: -12px;
+            }
+
+            .header__bottom {
+                position: absolute;
+                .navbar-light .navbar-toggler-icon {
+                    background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-151/24/List_menu_toggle-512.png");
+                }
+                margin-left: 80px;
+            }
+
+            .social-icons {
+                list-style: none;
+                margin-top: 40px;
+                    li {
+                        display: inline;
+                        padding-right: 15px;
+                        font-size: 18px;
+                    }
+            }
+        
+        }
+
+        .background-inner {
+            .inner__header {
+                margin-top: 77px;
+                    h2 {
+                        font-size: 59px;
+                    }
+                    h1 {
+                        font-size: 63px;
+                        font-weight: bold;
+                    }
+            }
+
+            .view__button {
+                margin-top: 60px;
+                display: flex;
+                justify-content: center;
+                    button {
+                        background: transparent;
+                        color: #FFB300;
+                        padding: 10px 20px;
+                        border-radius: 50px;
+                        border: 1px solid #FFB300;
+                        transition: all 0.3s ease 0s;
+                    }
+                    button:hover {
+                        color: #fff;
+                        background-color: #FFB300;
+                    }
+            }
+        }
+}
+
+.select__option__inner:before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 65px;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.4;
+    top: -27px;
+    width: 100%;
+    z-index: -1;
+}
+
+.select__option {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    z-index: 99;
+        .select__option__inner {
+            display: flex;
+            justify-content: space-evenly;
+            height: 110px;
+            position: relative;
+            padding: 0 60px;
+            z-index: 2;
+                .single__option {
+                    input {
+                        padding: 10px 20px;
+                        width: 191px;
+                    }
+                    select {
+                        padding: 10px 20px;
+                        width: 191px;
+                    }
+                }
+        }
+
+        .search__tours {
+            button {
+                color: #000;
+                background-color: #FFB300;
+                border: none;
+                padding: 10px 20px;
+            }
+        }
+     
+}
