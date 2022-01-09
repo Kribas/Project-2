@@ -1,0 +1,65 @@
+.special-tour {
+    background: rgba(0, 0, 0, 0) url("https://template.hasthemes.com/ramble/ramble/images/bg/2.jpg") no-repeat fixed 0 0 /
+    cover;
+    padding: 100px 0px;
+    .inner__section {
+        
+        h2 {
+            font-size: 40px;
+            font-weight: 600;
+            color: #fff;
+        }
+        h4 {
+            font-size: 30px;
+            font-weight: 600;
+            color: #fff;
+                span {
+                    font-size: 60px;
+                    margin-left: 10px;
+                }
+                .text-theme {
+                    color: #FFB300;
+                }
+        }
+        
+    }
+        .timer {
+            margin: 25px 0px;
+            .timer__number {
+                background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+                color: #ffb300;
+                font-size: 36px;
+                font-weight: 700;
+                padding: 8px 17px;
+                text-align: center;
+            }
+            .timer__days {
+                margin: 0 8px;
+            }
+            .timer__hours {
+                margin: 0 8px;
+            }
+            .timer__minutes {
+                margin: 0 8px;
+            }
+            .timer__seconds {
+                margin: 0 8px;
+            }
+        }
+
+        .get__tour__button {
+            margin-top: 40px;
+                button {
+                    background: transparent;
+                    color: #fff;
+                    width: 130px;
+                    padding: 10px 20px;
+                    border-radius: 50px;
+                    border: 1px solid #FFB300;
+                    transition: all 0.3s ease 0s;
+                }
+                button:hover {
+                    background-color: #FFB300;
+                }
+        }
+}

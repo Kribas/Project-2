@@ -1,0 +1,92 @@
+.meet-the-guys {
+    margin-top: 103px;
+    .section__title {
+        position: relative;
+        padding-bottom: 43px;
+        h2 {
+            font-weight: 600;
+        }
+        .text-theme {
+            color: #FFB300;
+        }
+
+        p {
+            padding-top: 16px;
+            margin-bottom: 0;
+        }
+    }
+
+    .section__title::before {
+        background: url('../images/1.png') no-repeat scroll center center;
+        height: 29px;
+        left: 0;
+        width: 100%;
+        right: 0;
+        z-index: 99;
+        position: absolute;
+        bottom: 0;
+        content: "";
+    }
+
+    .section__body {
+        margin-top: 55px;
+
+        .team {
+
+            .team__image {
+                background: #ffb300;
+                padding: 1px 1px 0px 1px;
+                transition: all 0.5s ease 0s;
+                max-width: 372px;
+                    img {
+                        max-width: 100%;
+                    }
+            }
+
+            .team__image:hover {
+                padding: 20px 30px 0px 24px;
+            }
+
+            .team__details {
+             background-color: #fff;
+             width: 319px;
+             position: relative;
+             bottom: 21px;
+             padding: 30px;
+             left: 24px;
+                 h4 {
+                     font-size: 19px;
+                     font-weight: 600;
+                     cursor: pointer;
+                     transition: all 0.3s ease 0s;
+                 }
+
+                 h4:hover {
+                     color: #ffb300;
+                 }
+
+                 h6 {
+                     font-size: 14px;
+                     color: grey;
+                 }
+
+                 .social__icons {
+                     color: grey;
+                     margin-top: 25px;
+                        i {
+                            font-size: 15px;
+                            padding: 0 10px;
+                            cursor: pointer;
+                            transition: all 0.3s ease 0s;
+                        }
+
+                        i:hover {
+                            color: #ffb300;
+                        }
+                 }
+         
+      }
+         }
+    }
+
+}

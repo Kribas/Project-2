@@ -451,6 +451,285 @@
   font-size: 20px;
 }
 
+.special-tour {
+  background: rgba(0, 0, 0, 0) url("https://template.hasthemes.com/ramble/ramble/images/bg/2.jpg") no-repeat fixed 0 0/cover;
+  padding: 100px 0px;
+}
+
+.special-tour .inner__section h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.special-tour .inner__section h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.special-tour .inner__section h4 span {
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+.special-tour .inner__section h4 .text-theme {
+  color: #FFB300;
+}
+
+.special-tour .timer {
+  margin: 25px 0px;
+}
+
+.special-tour .timer .timer__number {
+  background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+  color: #ffb300;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 8px 17px;
+  text-align: center;
+}
+
+.special-tour .timer .timer__days {
+  margin: 0 8px;
+}
+
+.special-tour .timer .timer__hours {
+  margin: 0 8px;
+}
+
+.special-tour .timer .timer__minutes {
+  margin: 0 8px;
+}
+
+.special-tour .timer .timer__seconds {
+  margin: 0 8px;
+}
+
+.special-tour .get__tour__button {
+  margin-top: 40px;
+}
+
+.special-tour .get__tour__button button {
+  background: transparent;
+  color: #fff;
+  width: 130px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #FFB300;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.special-tour .get__tour__button button:hover {
+  background-color: #FFB300;
+}
+
+.meet-the-guys {
+  margin-top: 103px;
+}
+
+.meet-the-guys .section__title {
+  position: relative;
+  padding-bottom: 43px;
+}
+
+.meet-the-guys .section__title h2 {
+  font-weight: 600;
+}
+
+.meet-the-guys .section__title .text-theme {
+  color: #FFB300;
+}
+
+.meet-the-guys .section__title p {
+  padding-top: 16px;
+  margin-bottom: 0;
+}
+
+.meet-the-guys .section__title::before {
+  background: url("../images/1.png") no-repeat scroll center center;
+  height: 29px;
+  left: 0;
+  width: 100%;
+  right: 0;
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  content: "";
+}
+
+.meet-the-guys .section__body {
+  margin-top: 55px;
+}
+
+.meet-the-guys .section__body .team .team__image {
+  background: #ffb300;
+  padding: 1px 1px 0px 1px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  max-width: 372px;
+}
+
+.meet-the-guys .section__body .team .team__image img {
+  max-width: 100%;
+}
+
+.meet-the-guys .section__body .team .team__image:hover {
+  padding: 20px 30px 0px 24px;
+}
+
+.meet-the-guys .section__body .team .team__details {
+  background-color: #fff;
+  width: 319px;
+  position: relative;
+  bottom: 21px;
+  padding: 30px;
+  left: 24px;
+}
+
+.meet-the-guys .section__body .team .team__details h4 {
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.meet-the-guys .section__body .team .team__details h4:hover {
+  color: #ffb300;
+}
+
+.meet-the-guys .section__body .team .team__details h6 {
+  font-size: 14px;
+  color: grey;
+}
+
+.meet-the-guys .section__body .team .team__details .social__icons {
+  color: grey;
+  margin-top: 25px;
+}
+
+.meet-the-guys .section__body .team .team__details .social__icons i {
+  font-size: 15px;
+  padding: 0 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.meet-the-guys .section__body .team .team__details .social__icons i:hover {
+  color: #ffb300;
+}
+
+.top-destination {
+  margin-top: 103px;
+}
+
+.top-destination .section__title {
+  position: relative;
+  padding-bottom: 43px;
+}
+
+.top-destination .section__title h2 {
+  font-weight: 600;
+}
+
+.top-destination .section__title .text-theme {
+  color: #FFB300;
+}
+
+.top-destination .section__title p {
+  padding-top: 16px;
+  margin-bottom: 0;
+}
+
+.top-destination .section__title::before {
+  background: url("../images/1.png") no-repeat scroll center center;
+  height: 29px;
+  left: 0;
+  width: 100%;
+  right: 0;
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  content: "";
+}
+
+.top-destination .section__body {
+  margin-top: 55px;
+}
+
+.top-destination .section__body .destination {
+  position: relative;
+}
+
+.top-destination .section__body .destination .destination__description {
+  position: absolute;
+  text-align: center;
+  bottom: 34%;
+  left: 128px;
+  color: #fff;
+}
+
+.top-destination .section__body .destination .destination__description h4 {
+  font-weight: 600;
+}
+
+.top-destination .section__body .destination .season__special {
+  position: absolute;
+  bottom: 32%;
+  left: 7%;
+}
+
+.top-destination .section__body .destination .season__special h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.top-destination .section__body .destination .season__special h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.top-destination .section__body .destination .season__special h6 {
+  font-size: 24px;
+  margin-top: 19px;
+  color: #fff;
+}
+
+.top-destination .section__body .destination .season__special p {
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 24px;
+  margin-top: 37px;
+}
+
+.top-destination .section__body .destination .season__special p .text-theme {
+  font-size: 48px;
+  color: #FFB300;
+}
+
+.top-destination .section__body .destination .season__special .book__now__button button {
+  background: transparent;
+  color: #fff;
+  width: 153px;
+  padding: 10px 20px;
+  margin-left: 70px;
+  margin-top: -35px;
+  border-radius: 50px;
+  border: 1px solid #FFB300;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.top-destination .section__body .destination .season__special .book__now__button button:hover {
+  background-color: #FFB300;
+}
+
 * {
   margin: 0;
   padding: 0;
