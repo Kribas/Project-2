@@ -1,0 +1,46 @@
+.welcome-to-ramble {
+    background-color: #F9F9F9;
+    margin-top: 103px;
+    .inner__image {
+        img {
+            height: 470px;
+            width: 700px;
+        }
+    }
+
+    .inner__body {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 80px;
+            h2 {
+                font-weight: 600;
+            }
+            .text-theme {
+                color: #FFB300;
+            }
+            p {
+                font-size: 14px;
+                padding-top: 20px;
+            }
+    }
+
+    .social__icons {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+            i {
+                padding: 5px 9px;
+                margin-right: 20px;
+                font-size: 20px;
+                color: #FFB300;
+                cursor: pointer;
+                background-color: #fff;
+                border: 1px solid #FFFFFF;
+                transition: all 0.3s ease 0s;
+            }
+
+            i:hover {
+                background-color: #FFB300;
+                color: white;
+            }
+    }
+}
