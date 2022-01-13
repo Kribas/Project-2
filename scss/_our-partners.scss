@@ -1,0 +1,16 @@
+.our-partners {
+    margin-top: 105px;
+        .brand__list {
+            max-width: 1249px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
+            padding: 64px 0px;
+            background: #fff;
+            list-style: none;
+                li {
+                    display: inline;
+                    padding: 0 31px;
+                    cursor: pointer;
+                }
+        }
+        
+}

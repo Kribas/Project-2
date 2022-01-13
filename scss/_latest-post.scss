@@ -1,0 +1,112 @@
+.latest-post {
+    margin-top: 103px;
+    .section__title {
+        position: relative;
+        padding-bottom: 43px;
+        h2 {
+            font-weight: 600;
+        }
+        .text-theme {
+            color: #FFB300;
+        }
+
+        p {
+            padding-top: 16px;
+            margin-bottom: 0;
+        }
+    }
+
+    .section__title::before {
+        background: url('../images/1.png') no-repeat scroll center center;
+        height: 29px;
+        left: 0;
+        width: 100%;
+        right: 0;
+        z-index: 99;
+        position: absolute;
+        bottom: 0;
+        content: "";
+    }
+
+    .section__body {
+        margin-top: 24px;
+        .post {
+            position: relative;
+            margin-top: 2rem;
+            .post__details {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 50%;
+                height: 100%;
+                padding: 0 25px;
+                display: flex;
+                align-items: center;
+                z-index: 2;
+                .post__details__inner {
+                    .time {
+                        font-size: 12px;
+                        color: #fff;
+                            i {
+                                margin-right: 10px;
+                            }
+                    }
+                    h2 {
+                        font-size: 18px;
+                        margin-bottom: 20px;
+                        margin-top: 18px;
+                        color: #fff;
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #fff;
+                    }
+                    .post__like__comment {
+                        margin-top: 17px;
+                            position: relative;
+                            color: #fff;
+                                .post__comment {
+                                    position: absolute;
+                                    right: 46px;
+                                }
+                    }
+                    .post__button {
+                        margin-top: 19px;
+                            .read__more__btn {
+                                font-size: 14px;
+                                display: inline-block;
+                                cursor: pointer;
+                                transition: all 0.3s ease 0s;
+                            }
+
+                            .read__more__btn:hover {
+                                color: #FFB300;
+                            }
+                    }
+                }
+
+                
+            }
+
+            .post__details::before {
+                background: #000 none repeat scroll 0 0;
+                content: "";
+                height: 100%;
+                opacity: 0.7;
+                position: absolute;
+                right: 48px;
+                top: 0;
+                width: 100%;
+                z-index: -1;
+            }
+
+            
+
+            
+        }
+        
+    }
+
+    
+}
+

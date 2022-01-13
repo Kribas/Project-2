@@ -1,0 +1,64 @@
+.testimonial-section {
+    background: url('https://template.hasthemes.com/ramble/ramble/images/bg/3.jpg') no-repeat scroll center center / cover;
+    padding: 100px 0px;
+    margin-top: 103px;
+        .testimonials {
+            .testimonial {
+                .person__image {
+                    max-width: 110px;
+                    margin: auto;
+                    img {
+                        display: block;
+                    }
+                }
+                .testimonial__text {
+                    p {
+                        font-size: 18px;
+                        font-style: italic;
+                        line-height: 24px;
+                        margin-top: 44px;
+                        padding: 0 7% 0 10%;
+                        color: #fff;
+                    }
+                    h4 {
+                        color: #ffb300;
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-top: 43px;
+                    }
+                    h6 {
+                        font-size: 18px;
+                        margin-top: 14px;
+                        color: #fff;
+                    }
+                }
+            }
+            .owl-dots {
+                position: relative;
+                padding-top: 70px;
+                text-align: center;
+                    .owl-dot {
+                        position: relative;
+                        display: inline-block;
+                        margin: 0px 8px;
+                            span {
+                                background: #fff none repeat scroll 0 0;
+                                bottom: 0;
+                                display: block;
+                                height: 10px;
+                                position: absolute;
+                                transition: all 0.3s ease 0s;
+                                width: 4px;
+                            }
+
+                            
+                    }
+                    .active {
+                        span {
+                            background: #ffb300 none repeat scroll 0 0;
+                            height: 30px;
+                        }
+                    }
+            }
+        }
+}

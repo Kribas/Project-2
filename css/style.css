@@ -730,6 +730,289 @@
   background-color: #FFB300;
 }
 
+.testimonial-section {
+  background: url("https://template.hasthemes.com/ramble/ramble/images/bg/3.jpg") no-repeat scroll center center/cover;
+  padding: 100px 0px;
+  margin-top: 103px;
+}
+
+.testimonial-section .testimonials .testimonial .person__image {
+  max-width: 110px;
+  margin: auto;
+}
+
+.testimonial-section .testimonials .testimonial .person__image img {
+  display: block;
+}
+
+.testimonial-section .testimonials .testimonial .testimonial__text p {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  margin-top: 44px;
+  padding: 0 7% 0 10%;
+  color: #fff;
+}
+
+.testimonial-section .testimonials .testimonial .testimonial__text h4 {
+  color: #ffb300;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 43px;
+}
+
+.testimonial-section .testimonials .testimonial .testimonial__text h6 {
+  font-size: 18px;
+  margin-top: 14px;
+  color: #fff;
+}
+
+.testimonial-section .testimonials .owl-dots {
+  position: relative;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.testimonial-section .testimonials .owl-dots .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0px 8px;
+}
+
+.testimonial-section .testimonials .owl-dots .owl-dot span {
+  background: #fff none repeat scroll 0 0;
+  bottom: 0;
+  display: block;
+  height: 10px;
+  position: absolute;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 4px;
+}
+
+.testimonial-section .testimonials .owl-dots .active span {
+  background: #ffb300 none repeat scroll 0 0;
+  height: 30px;
+}
+
+.latest-post {
+  margin-top: 103px;
+}
+
+.latest-post .section__title {
+  position: relative;
+  padding-bottom: 43px;
+}
+
+.latest-post .section__title h2 {
+  font-weight: 600;
+}
+
+.latest-post .section__title .text-theme {
+  color: #FFB300;
+}
+
+.latest-post .section__title p {
+  padding-top: 16px;
+  margin-bottom: 0;
+}
+
+.latest-post .section__title::before {
+  background: url("../images/1.png") no-repeat scroll center center;
+  height: 29px;
+  left: 0;
+  width: 100%;
+  right: 0;
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  content: "";
+}
+
+.latest-post .section__body {
+  margin-top: 24px;
+}
+
+.latest-post .section__body .post {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.latest-post .section__body .post .post__details {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  padding: 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner .time {
+  font-size: 12px;
+  color: #fff;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner .time i {
+  margin-right: 10px;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 18px;
+  color: #fff;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner .post__like__comment {
+  margin-top: 17px;
+  position: relative;
+  color: #fff;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner .post__like__comment .post__comment {
+  position: absolute;
+  right: 46px;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner .post__button {
+  margin-top: 19px;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner .post__button .read__more__btn {
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.latest-post .section__body .post .post__details .post__details__inner .post__button .read__more__btn:hover {
+  color: #FFB300;
+}
+
+.latest-post .section__body .post .post__details::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  opacity: 0.7;
+  position: absolute;
+  right: 48px;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.our-partners {
+  margin-top: 105px;
+}
+
+.our-partners .brand__list {
+  max-width: 1249px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 64px 0px;
+  background: #fff;
+  list-style: none;
+}
+
+.our-partners .brand__list li {
+  display: inline;
+  padding: 0 31px;
+  cursor: pointer;
+}
+
+.contact-address {
+  margin-top: 80px;
+}
+
+.contact-address .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f1f1f1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  max-width: 374px;
+  padding: 40px 0px;
+}
+
+.contact-address .address .address__icon {
+  margin-right: 10px;
+}
+
+.contact-address .address .address__icon i {
+  border: 1px solid grey;
+  padding: 5px;
+  color: grey;
+}
+
+.contact-address .address .address__text p {
+  margin-bottom: 0;
+  color: grey;
+}
+
+.footer {
+  background: url(https://template.hasthemes.com/ramble/ramble/images/bg/4.jpg) no-repeat scroll center center/cover;
+}
+
+.footer .footer__top {
+  padding: 70px 0px;
+}
+
+.footer .footer__top .footer__left .footer__logo {
+  margin-bottom: 44px;
+}
+
+.footer .footer__top .footer__left .footer__left__text {
+  color: #fff;
+}
+
+.footer .footer__top .footer__left .social__icons {
+  margin-top: 40px;
+  list-style: none;
+}
+
+.footer .footer__top .footer__left .social__icons li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.footer .footer__top .footer__left .social__icons li i {
+  border: 1px solid #fff;
+  color: #ffb300;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 40px;
+  padding: 10px;
+}
+
+.footer .footer__top .footer__left .social__icons i:hover {
+  color: #fff;
+  background: #ffb300;
+  border: 1px solid #ffb300;
+}
+
 * {
   margin: 0;
   padding: 0;

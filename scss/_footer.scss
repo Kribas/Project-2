@@ -1,0 +1,40 @@
+.footer {
+    background: url(https://template.hasthemes.com/ramble/ramble/images/bg/4.jpg) no-repeat scroll center center / cover;
+        .footer__top {
+            padding: 70px 0px;
+                .footer__left {
+                    .footer__logo {
+                        margin-bottom: 44px;
+                    }
+                    .footer__left__text {
+                        color: #fff;
+                    }
+                            .social__icons {
+                                margin-top: 40px;
+                                list-style: none;
+                                    li {
+                                        margin-right: 10px;
+                                        cursor: pointer;
+                                        i {
+                                            border: 1px solid #fff;
+                                            color: #ffb300;
+                                            font-size: 18px;
+                                            height: 40px;
+                                            line-height: 40px;
+                                            text-align: center;
+                                            transition: all 0.3s ease 0s;
+                                            width: 40px;
+                                            padding: 10px;
+                                        }
+                                    }
+
+                                    i:hover {
+                                        color: #fff;
+                                        background: #ffb300;
+                                        border: 1px solid #ffb300;
+                                    }
+                            }
+                    
+                }
+        }
+}
