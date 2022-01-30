@@ -1,9 +1,13 @@
 .special-tour {
-    background: rgba(0, 0, 0, 0) url("https://template.hasthemes.com/ramble/ramble/images/bg/2.jpg") no-repeat fixed 0 0 /
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://template.hasthemes.com/ramble/ramble/images/bg/2.jpg") no-repeat fixed 0 0 /
     cover;
     padding: 100px 0px;
+    height: 469px;
+    
     .inner__section {
-        
+        width: 100%;
+        position: absolute;
+        left: 0;
         h2 {
             font-size: 40px;
             font-weight: 600;
@@ -63,3 +67,4 @@
                 }
         }
 }
+

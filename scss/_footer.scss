@@ -1,7 +1,6 @@
 .footer {
-    background: url(https://template.hasthemes.com/ramble/ramble/images/bg/4.jpg) no-repeat scroll center center / cover;
-        .footer__top {
-            padding: 70px 0px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://template.hasthemes.com/ramble/ramble/images/bg/4.jpg) no-repeat scroll center center / cover;
+    padding: 70px 0px;
                 .footer__left {
                     .footer__logo {
                         margin-bottom: 44px;
@@ -36,5 +35,70 @@
                             }
                     
                 }
-        }
+
+                .footer__middle {
+                    
+                    .footer__middle__title {
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 42px;
+                        color: #fff;
+                    }
+
+                    .tweet {
+                        i {
+                            color: #ffb300;
+                            font-size: 18px;
+                            padding-top: 12px;
+                            margin-right: 20px;
+                        }
+                        p {
+                            color: #fff;
+                        }
+
+                        .text-theme {
+                            color: #ffb300;
+                        }
+                    }
+
+                }
+
+                .footer__right {
+                    
+                    .footer__right__title {
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 42px;
+                        color: #fff;
+                        margin-left: 30px;
+                    }
+                    .tag__menu {
+                        margin-left: -9px;
+                        margin-right: -9px;
+                        list-style: none;
+                            li {
+                                padding-bottom: 20px;
+                                padding-right: 10px;
+                                width: 33.33%;
+                                    button {
+                                        background: transparent;
+                                        color: #fff;
+                                        border-radius: 99px;
+                                        border: 1px solid #fff;
+                                        width: 126px;
+                                        padding: 10px 20px;
+                                        text-align: center;
+                                        transition: all 0.3s ease 0s;
+                                    }
+
+                                    button:hover {
+                                        background: #ffb300;
+                                        border: 1px solid #ffb300;
+                                    }
+
+                            }
+                    }
+                }
+        
 }
+

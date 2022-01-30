@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script async src="./js/purecounter.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/Carousel.js"></script>
@@ -16,10 +17,9 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="top-background">
-        <section class="top">
-            <div class="container">
-                <div class="row">
+    <header class="header">
+        <div class="top container-fluid">
+            <div class="row">
                 <div class="col-lg-2">
                     <div class="logo">
                         <a href="index.html">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="header__top">
+                    <div class="header__top d-lg-flex d-sm-none d-md-inline">
                         <div class="header__top__left">
                             <p>
                                 <span class="text-theme px-2">Contact: </span>
@@ -56,7 +56,6 @@
                             </ul>
                         </div>
                     </div>
-                    <hr class="bg-light">
                     <div class="header__bottom">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <div class="container-fluid">
@@ -79,7 +78,6 @@
                           </nav>
                     </div>
                 </div>
-                
                 <div class="col-lg-2 d-none d-lg-block">
                     <ul class="social-icons">
                         <li><a class="text-white" href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
@@ -90,66 +88,70 @@
                     </ul>
                 </div>
             </div>
-            </div>
-            
-        </section>
-        <div class="background-inner">
-            <div class="container">
-                <div class="inner__header text-center">
-                    <h2 class="text-white text-uppercase">Find your special ture today</h2>
-                    <h1 class="text-white text-uppercase">with ramble tours</h1>
+        </div>
+    </header>
 
-                </div>
-                <div class="view__button">
-                    <button>VIEW TOURS</button>
-                </div>
-            </div>
-        </div> 
-    </div>
-
-    <div class="select__option">
+    <div class="find-your-special-tour">
         <div class="container">
             <div class="row">
-                <div class="col-12 ">
-                    <div class="select__option__inner">
-                        <div class="single__option">
-                            <input type="text" placeholder="TOUR NAME">
+                <div class="col-12">
+                    <div class="section__inner text-sm-center">
+                        <h2>Find your special tour today</h2>
+                        <h1>with ramble tours</h1>
+                        <div class="view__button">
+                            <button>VIEW TOURS</button>
                         </div>
-                        <div class="single__option">
-                            <select>
-                                <option>TOUR TYPE</option>
-                                <option>TOUR TYPE</option>
-                                <option>TOUR TYPE</option>
-                                <option>TOUR TYPE</option>
-    
-                            </select>
-                        </div>
-                        <div class="single__option">
-                            <select>
-                                <option>DESTINATION</option>
-                                <option>DESTINATION</option>
-                                <option>DESTINATION</option>
-                                <option>DESTINATION</option>
-    
-                            </select>
-                        </div>
-                        <div class="single__option">
-                            <select>
-                                <option>MONTH</option>
-                                <option>MONTH</option>
-                                <option>MONTH</option>
-                                <option>MONTH</option>
-                            </select>
-                        </div>
-                        <div class="search__tours">
-                            <button>SEARCH TOURS</button>
+
+                        <div class="select__option d-sm-none d-md-inline">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 ">
+                                        <div class="select__option__inner">
+                                            <div class="single__option">
+                                                <input type="text" placeholder="TOUR NAME">
+                                            </div>
+                                            <div class="single__option">
+                                                <select>
+                                                    <option>TOUR TYPE</option>
+                                                    <option>TOUR TYPE</option>
+                                                    <option>TOUR TYPE</option>
+                                                    <option>TOUR TYPE</option>
+                        
+                                                </select>
+                                            </div>
+                                            <div class="single__option">
+                                                <select>
+                                                    <option>DESTINATION</option>
+                                                    <option>DESTINATION</option>
+                                                    <option>DESTINATION</option>
+                                                    <option>DESTINATION</option>
+                        
+                                                </select>
+                                            </div>
+                                            <div class="single__option">
+                                                <select>
+                                                    <option>MONTH</option>
+                                                    <option>MONTH</option>
+                                                    <option>MONTH</option>
+                                                    <option>MONTH</option>
+                                                </select>
+                                            </div>
+                                            <div class="search__tours">
+                                                <button>SEARCH TOURS</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
+
+    
 
     <section class="why-choose-us">
         <div class="container">
@@ -304,13 +306,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="facts d-flex justify-content-evenly">
+                    <div class="facts d-flex justify-content-between">
                         <div class="single__fact text-center">
                             <div class="fact__icon">
                                 <i class="fa fa-plane" aria-hidden="true"></i>
                             </div>
                             <div class="fact__number">
-                                <h1>94604</h1>
+                                <h1><span data-purecounter-start="0" data-purecounter-end="94604" data-purecounter-duration="4" class="purecounter">0</span></h1>
                             </div>
                             <div class="fact__title">
                                 <h2>CUSTOMERS</h2>
@@ -318,10 +320,10 @@
                         </div>
                         <div class="single__fact text-center">
                             <div class="fact__icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </div>
                             <div class="fact__number">
-                                <h1>1019</h1>
+                                <h1><span data-purecounter-start="0" data-purecounter-end="1019" data-purecounter-duration="4" class="purecounter">0</span></h1>
                             </div>
                             <div class="fact__title">
                                 <h2>DESTINATIONS</h2>
@@ -329,21 +331,21 @@
                         </div>
                         <div class="single__fact text-center">
                             <div class="fact__icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                <i class="fa fa-globe" aria-hidden="true"></i>
                             </div>
                             <div class="fact__number">
-                                <h1>25465</h1>
+                                <h1><span data-purecounter-start="0" data-purecounter-end="25465" data-purecounter-duration="4" class="purecounter">0</span></h1>
                             </div>
                             <div class="fact__title">
-                                <h2>Tours</h2>
+                                <h2>TOURS</h2>
                             </div>
                         </div>
                         <div class="single__fact text-center">
                             <div class="fact__icon">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
+                                <i class="fa fa-male" aria-hidden="true"></i>
                             </div>
                             <div class="fact__number">
-                                <h1>15</h1>
+                                <h1><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="4" class="purecounter">0</span></h1>
                             </div>
                             <div class="fact__title text-center">
                                 <h2>TOUR TYPES</h2>
@@ -488,6 +490,7 @@
             </div>
         </div>
     </section>
+
     <section class="meet-the-guys">
         <div class="container">
             <div class="row">
@@ -587,7 +590,7 @@
                     <div class="col-lg-4">
                         <div class="destination">
                             <div class="destination__image">
-                                <img src="https://template.hasthemes.com/ramble/ramble/images/top/1.jpg" alt="Destination Image"/>
+                                <img class="w-100" src="https://template.hasthemes.com/ramble/ramble/images/top/1.jpg" alt="Destination Image"/>
                             </div>
                             <div class="destination__description">
                                 <h4>OTTAWA</h4>
@@ -596,7 +599,7 @@
                         </div>
                         <div class="destination my-4">
                             <div class="destination__image">
-                                <img src="https://template.hasthemes.com/ramble/ramble/images/top/2.jpg" alt="Destination Image"/>
+                                <img class="w-100" src="https://template.hasthemes.com/ramble/ramble/images/top/2.jpg" alt="Destination Image"/>
                             </div>
                             <div class="destination__description">
                                 <h4>TOKYO</h4>
@@ -607,7 +610,7 @@
                     <div class="col-lg-4">
                         <div class="destination">
                             <div class="destination__image">
-                                <img src="https://template.hasthemes.com/ramble/ramble/images/top/3.jpg" alt="Destination Image"/>
+                                <img class="w-100" src="https://template.hasthemes.com/ramble/ramble/images/top/3.jpg" alt="Destination Image"/>
                             </div>
                             <div class="destination__description">
                                 <h4>SYDNEY</h4>
@@ -616,7 +619,7 @@
                         </div>
                         <div class="destination my-4">
                             <div class="destination__image">
-                                <img src="https://template.hasthemes.com/ramble/ramble/images/top/2.jpg" alt="Destination Image"/>
+                                <img class="w-100" src="https://template.hasthemes.com/ramble/ramble/images/top/2.jpg" alt="Destination Image"/>
                             </div>
                             <div class="destination__description">
                                 <h4>SINGAPORE</h4>
@@ -627,7 +630,7 @@
                     <div class="col-lg-4">
                         <div class="destination">
                             <div class="destination__image">
-                                <img src="https://template.hasthemes.com/ramble/ramble/images/top/big-img/1.jpg" alt="Destination Image"/>
+                                <img class="w-100" src="https://template.hasthemes.com/ramble/ramble/images/top/big-img/1.jpg" alt="Destination Image"/>
                             </div>
                             <div class="season__special">
                                 <h3>SEASON</h3>

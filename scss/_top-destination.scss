@@ -30,13 +30,17 @@
 
     .section__body {
         margin-top: 55px;
+        
         .destination {
             position: relative;
+            transition: 0.3s;
                 .destination__description {
                     position: absolute;
                     text-align: center;
+                    z-index: 9999;
                     bottom: 34%;
-                    left: 128px;
+                    left: 156px;
+                    
                     color: #fff;
                         h4 {
                             font-weight: 600;
@@ -45,6 +49,7 @@
 
                 .season__special {
                     position: absolute;
+                    z-index: 9999;
                     bottom: 32%;
                     left: 7%;
                         h3 {
@@ -91,6 +96,25 @@
                                 }
                         }
                 }
+        }
+
+        .destination:hover {
+            box-shadow: 0 0 12px 5px rgba(0, 0, 0,0.20);
+        }
+
+        .destination::before {
+            content: "";
+            background: #000 none repeat scroll 0 0;
+            opacity: 0.4;
+            position: absolute;
+            transition: 0.3s;
+            height: 100%;
+            width: 100%;
+            top: 0px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
         }
     }
 }
