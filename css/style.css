@@ -17,6 +17,10 @@
   display: block;
 }
 
+.header .logo-sticky {
+  margin-bottom: 20px;
+}
+
 .header .header__top {
   border-bottom: 1px solid #909090;
   -webkit-box-pack: justify;
@@ -77,6 +81,11 @@
   display: inline;
   padding-right: 15px;
   font-size: 18px;
+}
+
+.header .social-icons-sticky {
+  margin-top: 48px;
+  line-height: 48px;
 }
 
 .find-your-special-tour {
@@ -227,8 +236,15 @@
 }
 
 @media (max-width: 1024px) {
-  .navbar {
-    display: none;
+  .navbar-sticky {
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar-nav {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   }
 }
 
