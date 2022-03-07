@@ -47,10 +47,16 @@
                 .header__top__right {
                     .login__register {
                         list-style: none;
+                        cursor: pointer;
+                        
                             li {
                                 display: inline;
                                 padding-right: 10px;
                                 color: #fff;
+                                transition: all 0.3s ease 0s;
+                                    &:hover {
+                                        color: #FFB300;
+                                    }
                             }
                     }
                 }
@@ -64,11 +70,25 @@
         
 
         .header__bottom {
-            position: absolute;
+            
             .navbar-light .navbar-toggler-icon {
                 background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-151/24/List_menu_toggle-512.png");
             }
-            margin-left: 80px;
+            margin-left: 169px;
+
+            .navbar {
+                    
+                    .navbar-nav {
+                        .nav-link {
+                            color: #fff;
+                                &:hover {
+                                    color: #FFB300;
+                                }
+                        }
+                    }
+                
+            }
+            
         }
 
         .social-icons {
@@ -78,6 +98,15 @@
                     display: inline;
                     padding-right: 15px;
                     font-size: 18px;
+
+                        a {
+                            i {
+                                transition: all 0.3s ease 0s;
+                                &:hover {
+                                    color: #FFB300;
+                                }
+                            }
+                        }
                 }
         }
 
@@ -214,17 +243,33 @@
 .navbar-sticky {
     line-height: 40px;
     margin-top: 33px;
+
 }
 
 @media (max-width:1024px) {
     .navbar-sticky {
-        margin-top: -60px;
+        margin-top: -50px;
+        
     }
   }
 
   @media (max-width:1024px) {
     .navbar-nav {
         background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    }
+  }
+
+  @media (max-width:1200px) {
+    .select__option {
+        display: none;
+    }
+
+    .header__top {
+        display: none;
+    }
+
+    .find-your-special-tour {
+        text-align: center;
     }
   }
 

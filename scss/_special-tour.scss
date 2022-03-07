@@ -51,6 +51,12 @@
             }
         }
 
+        @media (max-width:1200px) {
+            .timer {
+                visibility: hidden;
+            }
+        }
+
         .get__tour__button {
             margin-top: 40px;
                 button {
@@ -65,6 +71,12 @@
                 button:hover {
                     background-color: #FFB300;
                 }
+        }
+
+        @media (max-width:1200px) {
+            .get__tour__button {
+                visibility: hidden;
+            }
         }
 }
 

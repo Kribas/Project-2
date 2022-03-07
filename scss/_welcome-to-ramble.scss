@@ -1,6 +1,7 @@
 .welcome-to-ramble {
     background-color: #F9F9F9;
     margin-top: 103px;
+    display: flex;
     .inner__image {
         img {
             height: 470px;
@@ -44,3 +45,15 @@
             }
     }
 }
+
+@media (max-width:1200px) {
+    .welcome-to-ramble {
+        flex-direction: column;
+
+            .inner__image {
+                display: none;
+            }
+
+    }
+}
+
